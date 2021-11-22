@@ -21,3 +21,5 @@ RUN apt-get install -y docker-ce
 RUN usermod -a -G docker jenkins
 
 USER jenkins
+
+## end
